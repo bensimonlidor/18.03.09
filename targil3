@@ -1,0 +1,19 @@
+ class Program
+    {
+        static void Main(string[] args)
+        {
+            int x = Convert.ToInt32(Console.ReadLine());
+            int h = 16;
+            int m = 0;
+            int s = 0;
+
+            h = h+x / 3600;
+            m = m + x % 3600 / 60;
+            s = s + x % 60;
+            Console.WriteLine( h+":" +m+":"+ s);
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+    
+        }
+    }
+}
